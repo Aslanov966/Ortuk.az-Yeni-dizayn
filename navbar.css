@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 header{
@@ -12,13 +13,15 @@ header{
     background-color: #FF00CD;
     position: fixed;
     z-index: 99999;
-    align-items: flex-start;
     justify-content: center;
 }
 .container{
     max-width: 1320px;
     width: 100%;
     margin: auto;
+    overflow: hidden;
+
+
 }
 .navbar{
     display: flex;
@@ -76,6 +79,8 @@ header{
     /* background-image: url(/fealiyyet22.png); */
 }
 .sections{
+    width: 100%;
+    height: 150px;
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -96,7 +101,7 @@ header{
     align-items: center;
 }
 .sections div{
-    width: 50%;
+    width:45%;
     height: 100px;
 }
 .sections div p{
@@ -137,7 +142,9 @@ header{
     align-items: center;
 }
 .card{
-    width: 35%;
+    width: 100%;
+
+    width: 40%;
     height:450px;
     display: flex;
     flex-direction: column;
@@ -145,6 +152,7 @@ header{
     margin-top: 20px;
 }
 .card-text{
+    
     width: 100%;
     height: 60px;
     color: black;
@@ -160,10 +168,11 @@ header{
 .card img{
     width: 70%;
     height: 300px;
+
 }
 .youtubes{
     width: 100%;
-    height: 650px;
+    height: 680px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -177,8 +186,8 @@ header{
     justify-content: space-between;
 }
 .youtube div{
-    width: 40%;
-    height: 98%;
+    width: 45%;
+    height: 100%;
 }
 .youtube-head{
     width: 100%;
@@ -205,7 +214,6 @@ header{
     height: 350px;
     border-radius: 40px;
     margin-top: 50px;
-
 }
 .video1 p{
   width: 100%;
@@ -238,6 +246,8 @@ header{
     margin-top: 50px;
 }
 .social-head{
+    width: 100%;
+    height: 100px;
     color: black;
     font-size: 47px;
     font-family: Fira Sans;
@@ -375,7 +385,7 @@ header{
 
 footer{
     width: 100%;
-    height: 250px;
+    height: 350px;
     background-color: #FF00CD;
 
 }
@@ -385,7 +395,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .footer-logo{
     width: 20%;
@@ -490,11 +500,12 @@ footer{
     font-size: 33px;
 }
 .footer-contact{
- 
     height: 100%;
     margin-top: 30px;
 }
 .footer-contact-head{
+    width: 100%;
+    text-align: center;
     color: rgba(255, 255, 255, 0.90);
     font-size: 25px;
     font-family: Inter;
@@ -504,13 +515,52 @@ footer{
     word-wrap: break-word
 }
 .footer-contact-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+.footer-contact-body a{
+    width: 100%;
+    text-align: center;
     color: white;
     font-size: 25px;
     font-family: Fira Sans;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.75px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    text-decoration: none;
+
+}
+.copywriter{
+    width: 100%;
+    margin-top: 30px;
+}
+.writer{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Fira Sans;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+.writer a{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Fira Sans;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+    text-decoration: none;
 }
 
 /* @media only screen and (min-width:1200px) and (max-width:1400px) {
